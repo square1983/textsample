@@ -6,6 +6,8 @@ import 'package:image_issue/thumb_item.dart';
 
 import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 
+import 'demo2.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const HomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
